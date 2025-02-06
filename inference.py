@@ -3,7 +3,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
 # Load the Vyakyarth model from Hugging Face Hub
-model = SentenceTransformer("<MODEL_PATH>")
+model = SentenceTransformer("krutrim-ai-labs/vyakyarth")
 
 # Define a set of multilingual sentences for similarity evaluation
 sentences = [
